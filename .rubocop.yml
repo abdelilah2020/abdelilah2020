@@ -1,0 +1,17 @@
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/Documentation:
+  Enabled: false 
+
+Metrics/LineLength:
+  Enabled: true
+  Max: 100
+  IgnoredPatterns: ['(\A|\s)#']
+
+Layout/FirstArrayElementIndentation:
+  Enabled: false 
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
